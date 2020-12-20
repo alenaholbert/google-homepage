@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h2 class="about"> <a href="https://about.google/">About</a></h2>
-        <h2 class="store"> <a href="https://store.google.com/"">Store</a></h2>
-        <h2 class="gmail"> <a href="https://mail.google.com/""> Gmail</a></h2>
-        <h2 class="images"> <a href="https://images.google.com/"">Images</a></h2>
+    <!-- Page Container -->
+    <div class="page">
 
-        <img src="g-suite-grid-icon.png" alt="G-Suite Navigator" class="header-img grid-icon">
-        <img src="user-icon.png" alt="User icon" class="header-img user-icon">
-    </header>
+        <!-- Header -->
+        <div class="header">
+            <ul class="header-links">
+                <li class="link left-align"><a href="https://about.google/">About</a></li>
+                <li class ="link left-align"><a href="https://store.google.com/"">Store</a></li>
+                <li class="right-align"><img src="user-icon.png" alt="User icon" class="header-images user-icon"></li>
+                <li class="right-align"><img src="g-suite-grid-icon.png" alt="G-Suite Navigator" class="header-images grid-icon"></li>
+                <li class="link right-align"><a href="https://images.google.com/"">Images</a></li>
+                <li class="link right-align"><a href="https://mail.google.com/""> Gmail</a></li>
+            </ul>
+        </div>
 
+        <!-- Google Logo -->
+        <div class="google-logo">
+            <img src="google-logo.jpg" alt="Google Logo">
+        </div>
 
-    <img src="google-logo.jpg" alt="Google Logo" class="logo">
+        <!-- Search Bar -->
+        <div class=search-bar">
+            <form>
+                <input type="text" id="fname" name="fname">
+            </form>
+        </div>
 
-    <form>
-        <input type="text" id="fname" name="fname">
-    </form>
+        <!-- Buttons -->
+        <div class="search-buttons">
+            <button class="google-search">Google Search</button>
+            <button class="im-feeling-lucky">I'm Feeling Lucky</button>
+        </div>
 
-    <button class="google-search">Google Search</button>
-    <button class="im-feeling-lucky">I'm Feeling Lucky</button>
-
-    <footer>
-        <h2 class="advertising">Advertising</h2>
-        <h2 class="business">Business</h2>
-        <h2 class="how-search-works">How Search Works</h2>
-        <h2 class="privacy">Privacy</h2>
-        <h2 class="terms">Terms</h2>
-        <h2 class="settings">Settings</h2>
-    </footer>
+        <!-- Footer -->
+        <div class="footer">
+            <ul class="footer-links">
+                <li class="link left-link"><a href="https://ads.google.com/">Advertising</a></li>
+                <li class ="link left-link"><a href="https://smallbusiness.withgoogle.com/">Business</a></li>
+                <li class="link left-link"><a href="https://www.google.com/search/howsearchworks/">How Search Works</a></li>
+                <li class="link right-link"><a href="http://policies.google.com/privacy/"> Privacy</a></li>
+                <li class="link right-link"><a href="https://policies.google.com/terms/">Terms</a></li>
+                <li class="link right-link"><a href="https://www.google.com/preferences/">Settings</a></li>
+            </ul>
+        </div>
+</div>
 
 </body>
 </html>
