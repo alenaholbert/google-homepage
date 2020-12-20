@@ -49,3 +49,31 @@ a:hover {
 .header-images {
     width: 30px;
 }
+
+.main {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.google-logo {
+    width: 30%;
+}
+
+.search-bar {
+    border-radius: 25px;
+    background-color: pink;
+}
+
+form {
+    border-radius: 25px;
+}
+
+.search-button {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: lightgray;
+    vertical-align: top;
+}
