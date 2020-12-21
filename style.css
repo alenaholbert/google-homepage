@@ -32,22 +32,22 @@ a:hover {
     list-style: none;
 }
 
-.link {
-    padding-right: 10px;
-}
-
 .left-align {
     display: flex;
     float: left;
+    padding-left: 20px;
 }
 
 .right-align {
     display: flex;
     float: right;
+    padding-right: 20px;
 }
 
 .header-images {
     width: 30px;
+    height: 30px;
+    transform: translate(0,-8px);
 }
 
 .main {
@@ -60,20 +60,73 @@ a:hover {
 }
 
 .search-bar {
+    margin-top: 20px;
     border-radius: 25px;
-    background-color: pink;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    width: 550px;
+    height: 40px;
+    padding-left: 50px;
 }
 
-form {
-    border-radius: 25px;
+.mag-button {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    transform: translate(-1350%, -290%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-size: contain;
+    cursor: pointer;
+}
+
+.mic-button {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(1100%,-140%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: contain;
+    cursor: pointer;
 }
 
 .search-button {
-    background-color: lightgray;
+    background-color: #f7f7f7;
+    border-style: none;
     border-radius: 5px;
+    height: 40px;
+    color: darkslategray;
+    margin: 10px;
+    margin-top: 0px;
+    width: 10%;
+    cursor: pointer;
 }
 
+.search-button:hover {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    box-shadow: 1px 1px 2px lightgray;
+}
+
+
 .footer {
-    background-color: lightgray;
-    vertical-align: top;
+    background-color: #f7f7f7;
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    height: 20px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-right: 40px;
+    border-style: none;
+    border-top-style: solid;
+    border-top-color: lightgray;
+    border-top-width: 1px;
 }
