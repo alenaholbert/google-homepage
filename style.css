@@ -35,17 +35,17 @@ a:hover {
 }
 
 .header-left, .footer-left {
+    list-style: none;
     display: flex;
     float: left;
     padding-left: 0px;
-    list-style: none;
 }
 
 .header-right, .footer-right {
+    list-style: none;
     display: flex;
     float: right;
     padding-right: 20px;
-    list-style: none;
 }
 
 .header-images {
